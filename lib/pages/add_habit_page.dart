@@ -8,15 +8,6 @@ class AddHabitPage extends StatefulWidget {
   @override
   State<AddHabitPage> createState() => _AddHabitPageState();
 }
-
-
-
-
-
-
-
-
-
 class _AddHabitPageState extends State<AddHabitPage> {
   final _formKey = GlobalKey<FormState>();
   final _nameController = TextEditingController();
